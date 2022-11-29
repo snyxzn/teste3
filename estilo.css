@@ -1,0 +1,163 @@
+header {
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    size: 150%;
+
+}
+
+
+body {}
+
+nav.navegacao {
+
+    background-color: #2098cc;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    size: 150%;
+
+
+}
+
+.off {
+
+    border: none;
+    margin-left: 2px;
+    margin-right: 2px;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    filter: brightness(100%);
+
+}
+
+.off:hover {
+
+    font-size: 20px;
+
+
+}
+
+.on {
+
+    border: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #111;
+    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 21px;
+    text-decoration: none;
+    transition: transform 5s;
+    filter: brightness(100%);
+
+}
+
+.on:hover {
+
+    transform: scale(1.3);
+    filter: brightness(110%);
+    background-color: #D3D3D3;
+
+}
+
+header {
+
+    width: 100%;
+
+}
+
+.album {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 5vw;
+
+}
+
+.foto-album img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+
+.foto-album {
+
+    width: 150px;
+    height: 150px;
+    border: 5px solid rgb(95, 95, 95);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.509);
+    transition: transform .3s;
+    border-radius: 10px;
+
+}
+
+.foto-album:hover {
+
+    transform: scale(1.3);
+    filter: contrast(130%);
+
+
+}
+
+
+.foto-album2 img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.foto-album2 {
+
+    width: 500px;
+    height: 300px;
+    border: 7px solid rgb(95, 95, 95);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.509);
+    transition: transform .3s;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+
+.foto-album2:hover {
+
+    transform: scale(1.3);
+    filter: contrast(130%);
+
+
+}
+
+
+.txtfinal {
+
+    padding: 10px;
+    padding-top: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+
+}
+
+
+@media(max-width: 996px) {
+
+    .col {
+    
+    width: 100%;
+    
+    }
+    
+    body {
+    
+    background-color: #555;
+    
+    
+    }
+    
+    }
